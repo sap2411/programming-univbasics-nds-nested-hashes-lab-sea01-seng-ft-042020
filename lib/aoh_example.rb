@@ -18,6 +18,11 @@ def assembled_aoh
 end
 
 def literal_aoh
+  array << { name:  "Don Gately", occupation: "Live-in Staff" }
+  array << { name:  "Joelle van Dyne", occupation: "Radio Personality" }
+  array << { name:  "Pat Monteseian", occupation: "Staff" }
+  array << { name:  "Kate Gompert", occupation: "None" }
+  array << { name:  "Bruce Green", occupation: "Fan of Mildred" }
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
 end
